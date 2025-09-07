@@ -1,0 +1,11 @@
+# Python env & caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Keys
+*.pem
+
+# (Optional) local evidence
+evidence/

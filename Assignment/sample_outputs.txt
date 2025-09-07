@@ -1,0 +1,21 @@
+=== SYMMETRIC (AES-GCM) ===
+Key (base64): 9D4yo6g9caHE3tMM50FQXI8UY9yr6V26mi0dgn0u6jY=
+Nonce (base64): 0XAWZeWWFwhRd08a
+Ciphertext+Tag (base64): qYPVpaOrqCX1s0Jm6WsyiI6PtMeLOfeuLQZ0nPO0Zh78NS3X8rzb6xuL3F2Xlz4ZKOx5m0Z2
+Plain Input: Hello, this is a short secret message!
+Decrypted Output: Hello, this is a short secret message!
+
+=== ASYMMETRIC (RSA-OAEP) ===
+Public Key (PEM):
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzLwcPAsjV0xHE/CC9yNz
+hXZbASkplLt6tYGmxfSNhMXobIOlk0PKD3yqxzcNdkIUyB2gbc8zHyKeasfYLWJZ
+wXT7IhpfjuWHnS5l3423MmBFFBPDYjVfAbwX3B7+Kxam5Ng/lw/1gpqZFpp5mJZP
+R3CqIZxD9pNrDAI5T+APtQyQPPumlrRD/tNjT6Hg2TmheH3/MawcgrLMKUncBZ6x
+ypu3s5wiAHvS5ZsQGX2B0bz/gyhRcD5O5IfdoVk/Rd0DLcDIlr9z+7TO6LGYKmHF
+cvvbp7yjiDjaxIzGOYDYo7QpCgDb8faWD+OgXWl2uV2MBDQPkJCfg3QpyReiPNtP
+hQIDAQAB
+-----END PUBLIC KEY-----
+Ciphertext (base64): WaY8bm4H0H5HzIkCqcKVJ1bYvvHgjhEIeBqXbs0Z5aQFxzNg6grosU0C+obt7yxEzx9CLOA72WhQPca1lL3i3rzBrAIWM9Th9RsBLgqAzAw0GxK69KQln+fY0HZTblIazJQb2Dy2mlh0KDjiPuFFlD7XWRVBZ0rLaevDypDIIF08Hltge9K1ozfjgjFFX9x63R/moUHjvXEMnIfy1s4ERbbGWFw1BVuQG5KRsL7p9n65EhQ9ONNtbAxdi7mACy7cxIX2Lq1j51uQMQvddqPJeYQkU2/r6b31GLV7iAbN4pxSKA/knQXEbR5TsVQlKU/XKS5e76+3bAktjoQra+FF/A==
+Plain Input: Short RSA message demo
+Decrypted Output: Short RSA message demo
